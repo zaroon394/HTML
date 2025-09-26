@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+
+#p1{
+    color: wheat;
+}
+#p2{
+    color: blue;
+}
+#p3{
+    color: aqua;
+}
+
+#p4{
+    color:blueviolet; 
+}
+
+#p5{
+   color:brown;}
+
+   .odd{
+    font-size: larger; font-style: initial;
+
+   }
+
+   .even{
+    font-size: xx-large; font-style: oblique
+   }

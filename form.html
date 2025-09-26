@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--encryptype="multipart/form-data"> it send large data in multiple parts-->
+    <form action="index.php" method="POST" encryptype="multipart/form-data">
+        <!--for below is used for blind people so screen reader can read it out and when the label is tapped it also moves the cursor into repsective box for typing-->
+        
+        <label for="username">username:</label>
+        <input type="text" id="username" minlength="6" maxlength=15 required placeholder="Alphabets">
+        <br>
+        
+        <label for="password">password:</label>
+        <input type="password" id="password"required>
+        
+        <br>
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="kcc123@gmail.com">
+        <br>
+
+        <label for="phone">phone no:</label>
+        <input type="tel" id="phone" placeholder="9123456789" pattern="[0-9]"> 
+        
+        <br>
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday">
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1">
+        <br>
+
+        <!--Gender-->
+        <label for="Mr.">Mr.</label>
+        <input type="radio"  value="Mr." name="title">
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" for="Mrs."  value="Mrs." name="title">
+
+        <label for="Miss.">Miss.</label>
+        <input type="radio" value="Miss." name="title">
+
+        <label for="Dr.">Dr.</label>
+        <input type="radio"  value="Dr." name="title">
+        
+        <br>
+
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="Debit card">Debit card</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="UPI">UPI</option>
+            <option value="Net banking">Net banking</option>
+
+        </select>
+        
+        <br>
+        
+        
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        
+        <label for="comment">comment</label>
+        <textarea id="comment" row="3" cols="25"></textarea>
+        <br>
+        
+        <label for="file">file</label>
+        <input type="file" id="file" accept="image/png,image/jpeg,image/jpg"><br>
+        <input type="reset">
+        <br>
+    
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>

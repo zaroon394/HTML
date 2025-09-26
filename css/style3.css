@@ -1,0 +1,17 @@
+body{
+    background-color:slategray ;
+}
+#p1{
+    color:tomato; font-family: delius swash caps, cursive;
+}
+#p2{
+    color:rgb(228, 9, 9) ; font-weight:bold
+}
+#p3{
+    color:#00FFFF; font-family: "lucida console",'Courier New', Courier, monospace;
+    font-size:1.5em ; /* 1em is 100% */
+
+}<!--1em is 100%-->
+#p4{
+    color: hsl(271, 76%, 53%); 
+}

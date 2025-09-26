@@ -1,0 +1,33 @@
+
+/*overflow visible will alow the contents to oveflow the div box*/
+#div1{
+    border:2px solid;
+    height:75px;
+    overflow:visible}
+
+    /*overflow hidden will hide the contents that overflow the div box*/
+    #div2{
+        border:2px solid;
+        height:75px;
+        overflow:hidden}
+
+    /*overflow scroll will add a scrollbar to the div box*/
+    #div3{
+    border:2px solid;
+    height:120px;
+    overflow:scroll}
+    
+    
+    /*overflow auto will add a scrollbar to the div box only when necessary*/
+    #div4{
+        border:2px solid;
+        height:75px;
+        overflow:auto}
+
+    /*overflow clip will clip the contents that overflow the div box*/
+    #div5{
+        border:2px solid;
+        height:75px;
+        overflow:clip;
+        overflow-clip-margin: 10px}
+

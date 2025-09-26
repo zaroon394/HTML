@@ -1,0 +1,15 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sass/Less temporary files
+.sass-cache/
+.sass-cache
+
+# Node.js modules and dependencies
+/node_modules
+
+# Build artifacts and temporary directories
+/dist
+/build
+/temp
